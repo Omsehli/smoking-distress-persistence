@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project-specific (PATH) ---
+# Never commit raw PATH microdata
+data/raw/
+
+# Optional: ignore processed outputs if you regenerate them
+# data/processed/
+
+# Virtual envs
+.venv/
+venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
